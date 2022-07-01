@@ -1,0 +1,48 @@
+.container-ecommerce{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(32rem, 1fr));
+  grid-gap: 2rem 0;
+  margin: 1rem 0 6rem 0;
+}
+.ilustration {
+  width: 80%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.row-image {
+  display: flex;
+  justify-content: center;
+}
+
+.title-ecommerce {
+  font-size: 2.2rem;
+  font-weight: bold;
+  text-align: center;
+
+}
+.row-description {
+  align-self: end;
+  justify-self: center;
+
+}
+.left-arrow {
+  background-image: url('../../../assets/icons/right-arrow.svg');
+  display: inline-block;
+  width: 3.6rem;
+  height: 3.6rem;
+  background-size: cover;
+}
+.description-ecommerce {
+  display: block;
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+  margin: 2.5rem;
+  justify-self: center;
+}
+.list-ecommerce ul {
+  display: flex;
+  flex-direction: column;
+}

@@ -1,0 +1,23 @@
+.service-box {
+  border-radius: 10px;
+  box-shadow: 3px 11px 16px 8px rgba(191,177,177,0.75);
+-webkit-box-shadow: 3px 11px 16px 8px rgba(191,177,177,0.75);
+-moz-box-shadow: 3px 11px 16px 8px rgba(191,177,177,0.75);
+background-color: azure;
+}
+.row {
+display: flex;
+flex-direction: row;
+width: 100%;
+justify-content: center;
+}
+
+#card-service {
+  background-color: #fff;
+}
+#card-service:hover {
+  cursor: pointer;
+}
+.service-content:hover {
+  cursor: pointer;
+}

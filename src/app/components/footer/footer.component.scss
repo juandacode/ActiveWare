@@ -1,0 +1,37 @@
+footer {
+  position: relative;
+  bottom: 0;
+  margin: 0;
+  padding:0;
+  background-color: #052441;
+  margin-bottom: 0;
+  height: 40vh;
+}
+.footer-copyright {
+  display: flex;
+  justify-content: center;
+}
+.copyright {
+  color: #fff;
+  font-size: 0.8rem;
+  font-weight: bold;
+  padding: 1rem 0;
+  position: relative;
+  bottom: 0;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+.text-center {
+  padding-top: 25px;
+}
+.copy {
+
+}
+
+
+h3 {
+  color: #fff;
+}
+

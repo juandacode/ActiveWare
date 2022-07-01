@@ -1,0 +1,11 @@
+<section class="business">
+  <h2 class="business-title">Tipos de Negocios</h2><span class="arrow-down"></span>
+<div class="business-grid">
+  <div *ngFor="let business of companies" class="business-cards">
+    <div class="business-card">
+      <img class="business-image" [src]="business.img" alt="">
+      <button class="business-button">{{ business.title }}</button>
+    </div>
+  </div>
+</div>
+</section>

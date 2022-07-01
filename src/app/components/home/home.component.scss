@@ -1,0 +1,35 @@
+#Banner {
+  background: #00d2ff;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #3a7bd5, #00d2ff);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #3a7bd5, #00d2ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  //background: #499EBF;
+  //background: #0b345b;
+}
+
+.main-title {
+  font-size: 1.0rem;
+  font-weight: 300;
+}
+.col {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.call-to-action {
+  width: 50%;
+  height: 5.5rem;
+  font-weight: bold;
+  background-color: #F2AE2E;
+  color: #fff;
+  border: none;
+  border-radius: 1.6rem;
+  font-size: 2rem;
+}
+.call-to-action:hover {
+  background-color: transparent;
+  color: #F2AE2E;
+  border: 1px solid #F2AE2E;
+  cursor: pointer;
+}
+

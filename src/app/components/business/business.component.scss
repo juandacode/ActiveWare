@@ -1,0 +1,59 @@
+.business {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.business-grid{
+  display: grid;
+  width: 90%;
+  height: 100vh;
+  grid-template-columns: repeat(auto-fit, minmax(31rem, 1fr));
+  gap: 2rem;
+
+}
+.business-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  -webkit-box-shadow: 5px 2px 15px 1px #8A8A8A;
+box-shadow: 5px 2px 15px 1px #8A8A8A;
+}
+.business-image {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-bottom: 2rem;
+}
+
+.business-button {
+  font-size: 1.8rem;
+  width: 20rem;
+  height: 4rem;
+  margin-bottom: 2rem;
+  border-radius: 1rem;
+  background-color: #00A8FF;
+  color: #fff;
+  border: none;
+}
+.business-button:hover {
+  cursor: pointer;
+  color: #00A8FF;
+  border: 0.1rem solid #00A8FF;
+  background-color: transparent;
+}
+.business-title {
+  font-size: 2.2rem;
+  font-weight: bold;
+  font-family: 'Poppins', sans-serif;
+  margin-top: 2rem;
+}
+.arrow-down {
+  background-image: url('../../../assets/icons/business-arrow-down.svg');
+  display: inline-block;
+  width: 3.6rem;
+  height: 3.6rem;
+  background-size: cover;
+  margin-bottom: 2rem;
+}
