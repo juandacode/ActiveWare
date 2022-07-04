@@ -15,35 +15,35 @@ export class BusinessComponent implements OnInit {
   companies = [
     {
       "img": "../../../assets/images/fashion.png",
-      "title": "Shop Fashion"
+      "title": "Tienda de Moda"
     },
     {
       "img": "../../../assets/images/cosmetics.jpg",
-      "title": "Cosmetics"
+      "title": "Cosmeticos"
     },
     {
       "img": "../../../assets/images/business-local.png",
-      "title": "Supermarket"
+      "title": "SuperMercado"
     },
     {
       "img": "../../../assets/images/hamburger.png",
-      "title": "Food"
+      "title": "Comidas"
     },
     {
       "img": "../../../assets/images/suplements.png",
-      "title": "Suplements"
+      "title": "Suplementos"
     },
     {
       "img": "../../../assets/images/technology.jpg",
-      "title": "Technology"
+      "title": "Tecnología"
     },
     {
       "img": "../../../assets/images/fashion.png",
-      "title": "Shop Fashion"
+      "title": "Tienda de moda"
     },
     {
       "img": "../../../assets/images/fashion.png",
-      "title": "Shop Fashion"
+      "title": "Tienda de Moda"
     }
   ]
 

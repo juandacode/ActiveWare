@@ -10,47 +10,47 @@ export class FeaturesComponent implements OnInit {
   features: Feature[] = [
     {
       title: "Facturación",
-      icon: "src/app/assets/icons/network.svg",
+      icon: "../../../assets/icons/network.svg",
       description: "Genera facturas o recibos de compra, imprímelas o envíalas por correo."
     },
     {
       title: "Inventario",
-      icon: "src/app/assets/icons/network.svg",
+      icon: "../../../assets/icons/network.svg",
       description: "Genera facturas o recibos de compra, imprímelas o envíalas por correo."
     },
     {
       title: "E-commerce",
-      icon: "src/app/assets/icons/network.svg",
+      icon: "../../../assets/icons/network.svg",
       description: "Genera facturas o recibos de compra, imprímelas o envíalas por correo."
     },
     {
       title: "E-commerce",
-      icon: "src/app/assets/icons/network.svg",
+      icon: "../../../assets/icons/network.svg",
       description: "Genera facturas o recibos de compra, imprímelas o envíalas por correo."
     },
     {
       title: "E-commerce",
-      icon: "src/app/assets/icons/network.svg",
+      icon: "../../../assets/icons/network.svg",
       description: "Genera facturas o recibos de compra, imprímelas o envíalas por correo."
     },
     {
       title: "E-commerce",
-      icon: "src/app/assets/icons/network.svg",
+      icon: "../../../assets/icons/network.svg",
       description: "Genera facturas o recibos de compra, imprímelas o envíalas por correo."
     },
     {
       title: "E-commerce",
-      icon: "src/app/assets/icons/network.svg",
+      icon: "../../../assets/icons/network.svg",
       description: "Genera facturas o recibos de compra, imprímelas o envíalas por correo."
     },
     {
       title: "E-commerce",
-      icon: "src/app/assets/icons/network.svg",
+      icon: "../../../assets/icons/network.svg",
       description: "Genera facturas o recibos de compra, imprímelas o envíalas por email."
     },
     {
       title: "E-commerce",
-      icon: "src/app/assets/icons/network.svg",
+      icon: "../../../assets/icons/network.svg",
       description: "Genera facturas o recibos de compra, imprímelas o envíalas por email."
     }
   ];
